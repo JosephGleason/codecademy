@@ -1,0 +1,56 @@
+* {
+    font-family: Helvetica;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    height: 100px;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    white-space: nowrap;
+    margin: 0;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+#brush {
+    background-color: mediumspringgreen;
+}
+
+#frame {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
+
+a {
+    font-weight: bold;
+    color: blue;
+    font-family: Helvetica;
+}
